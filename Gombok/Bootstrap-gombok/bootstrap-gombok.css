@@ -1,0 +1,90 @@
+/* minden gombra érvényes*/
+.btn{
+ 
+  display: inline-block; /* Ez teszi lehetõvé hogy gombbá alakítsd */
+  text-decoration: none; /* tipográfia - dekoráció */
+  font-family: Arial, sans-serif; /* tipográfia - betûtípus */
+  text-align: center; /* tipográfia - elhelyezés */
+  font-size: 14px; /* tipográfia - betûméret */
+  line-height: 1.42857143; /* tipográfia - sormagasság */
+  padding: 6px 12px; /* zsúfoltság ellen */
+  margin-bottom: 10px; /* gomb alatti hely (ha egymás alá kerülnek se érnek össze) */
+  border: 1px solid transparent; /* átlátszó keret */
+  border-radius: 4px; /* keret lekerekítés */
+  white-space: nowrap; /* nem törhet új sorba a szöveg */
+  vertical-align: middle; /* középre rendezi vertikálisan */
+  color: #fff; /* betûszín */
+}
+
+/* "Default" gomb stílusa, + ha az egérrel fölémész */
+
+.btn-default{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-default:hover{
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+/* "Primary" gomb stílusa, + ha az egérrel fölémész */
+
+.btn-primary{
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-primary:hover{
+  background-color: #286090;
+  border-color: #204d74;
+}
+
+/* "Success" gomb stílusa, + ha az egérrel fölémész */
+
+.btn-success{
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn-success:hover{
+  background-color: #449d44;
+  border-color: #398439;
+}
+
+/* "Info" gomb stílusa, + ha az egérrel fölémész */
+
+.btn-info{
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-info:hover{
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+
+/* "Warning" gomb stílusa, + ha az egérrel fölémész */
+
+.btn-warning{
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+.btn-warning:hover{
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+
+/* "Danger" gomb stílusa, + ha az egérrel fölémész */
+
+.btn-danger{
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.btn-danger:hover{
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
