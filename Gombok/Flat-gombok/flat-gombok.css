@@ -1,0 +1,21 @@
+/* minden gombra érvényes*/
+.btn{
+ 
+  display: inline-block; /* Ez teszi lehetõvé hogy gombbá alakítsd */
+  text-decoration: none; /* tipográfia - dekoráció */
+  font-family: Arial, sans-serif; /* tipográfia - betûtípus */
+  font-size: 1rem; /* tipográfia - betûméret */
+  padding: .8rem 1rem; /* zsúfoltság ellen */
+  border: 1px solid #000; /* keret */
+  color: #000; /* betûszín */
+}
+
+/* A gombok stílusa, ha az egérrel fölémész */
+
+.btn-flat:hover{
+  background-color: #000;
+  color: #fff;
+  transition: background-color .15s ease-in-out; /* átmenet */
+}
+
+
