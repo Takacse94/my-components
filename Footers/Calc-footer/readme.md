@@ -1,0 +1,1 @@
+Calc() fuggvennyel valo footer keszitese
