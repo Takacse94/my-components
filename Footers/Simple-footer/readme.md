@@ -1,0 +1,1 @@
+Nagyon egyszerû footer, szerzõi jogi információval és néhány navigációs link.
