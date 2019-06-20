@@ -1,0 +1,1 @@
+Bloghoz header (fejlec) keszitese
