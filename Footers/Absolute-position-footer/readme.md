@@ -1,0 +1,1 @@
+Abszolut pozicios lablec (footer) keszitese
