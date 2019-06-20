@@ -1,0 +1,1 @@
+Teljes kepernyos bloghoz fejlec (header) keszitese
