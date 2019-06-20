@@ -1,0 +1,47 @@
+/* Általános stílus */
+
+* {
+  box-sizing: border-box;
+}
+
+nav{
+  font-size: 0;
+}
+
+nav ul{
+  background-color: #eee;
+  text-align: center;
+}
+
+nav li{
+  font-family: 'Anton', sans-serif;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem; /* ha ua-t az értéket adod meg, középre helyezi a szöveget */
+  border-bottom: 1px solid #ccc; /* vizuális elválasztó */
+}
+
+nav a{
+  text-decoration: none; /* leszedi az automatikus formázást */
+  color: #C74F78; 
+  display: block; /* kitölti a teljes magasság-hosszúságot */
+}
+
+nav a:hover {
+  background-color: #fff;
+  transition: background-color .3s ease-in-out;
+}
+
+nav a.active{
+  background-color: #c74f78;
+  color: #eee;
+}
+
+@media (min-width: 600px) {
+  
+  nav li{
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+} 
